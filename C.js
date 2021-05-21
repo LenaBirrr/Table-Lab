@@ -46,3 +46,10 @@ function sort(numberOfColumn)
 		}
 	}
 }
+
+let table=document.body.firstElementChild;
+
+nameOfBook.addEventListener("click", function(){ sort(0); });
+yearOfEnd.addEventListener("click", function(){ sort(1); });
+yearOfPublishing.addEventListener("click", function(){ sort(2); });
+numberOfBook.addEventListener("click", function(){ sort(3); });
