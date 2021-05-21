@@ -65,12 +65,8 @@ let table=document.body.firstElementChild;
 
 dehighlightLines();
 arrDefault();
-table.rows[0].cells[0].setAttribute('onclick','sort(0)');
-table.rows[0].cells[1].setAttribute('onclick','sort(1)');
-table.rows[0].cells[2].setAttribute('onclick','sort(2)');
-table.rows[0].cells[3].setAttribute('onclick','sort(3)');
 
 
-document.getElementById("button").onclick=filterLines;
+button.addEventListener("click",filterLines);
 
 
